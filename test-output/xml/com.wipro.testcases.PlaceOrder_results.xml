@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="66.448">
+  <properties />
+  
+  
+            <testcase name="loginTest" time="4.768" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="selectProduct" time="54.207" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="logOut" time="7.473" classname="com.wipro.testcases.PlaceOrder" />
+      
+</testsuite>
