@@ -20,6 +20,8 @@ public class TestBase {
 	String fileName = "src\\main\\resources\\config\\config.properties";
 	FileInputStream fis;
 	Properties prop ;
+	
+	//function is used to launch browser
 	public void lanuchBrowser() {
 		try {
 			fis = new FileInputStream(fileName);
@@ -43,11 +45,13 @@ public class TestBase {
 		
 		driver.manage().window().maximize();
 	}
-
+	
+	//function is used to navigate to URL
 	public void navigateToURL() {
 		driver.get(prop.getProperty("URL"));
 	}
 	
+	//function is used to wait (Thread.sleep())
 	public void wait(int msec) {
 		try {
 			Thread.sleep(msec);
@@ -56,6 +60,7 @@ public class TestBase {
 		}
 	}
 	
+	//function is used to capture the screen shot
 	public String captureScreenshot(String scrName) {
 		
 		System.out.println("ScreenShot for "+scrName);

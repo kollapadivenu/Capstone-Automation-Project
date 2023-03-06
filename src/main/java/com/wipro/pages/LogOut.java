@@ -11,6 +11,8 @@ public class LogOut extends TestBase{
 	By logout = By.xpath("//a[@class='ico-logout']");
 	
 	WebDriverWait wait = new WebDriverWait(driver,10);
+	
+	//function is used to logout
 	public boolean logOut() {
 		
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(logout));

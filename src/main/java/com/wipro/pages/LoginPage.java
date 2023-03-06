@@ -13,6 +13,7 @@ public class LoginPage extends TestBase{
 	By password = By.xpath("//input[@id='Password']");
 	By loginButton=By.xpath("//button[text()='Log in' and @type='submit']");
 	
+	//Function used to login 
 	public boolean validateLogin(String userName,String passWord) {
 		driver.findElement(login).click();
 		wait(1000);

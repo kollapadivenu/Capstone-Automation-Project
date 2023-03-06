@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="3"
+           tests="8"
            failures="0"
            errors="0"
            skipped="0"
-           time="66.448">
+           time="57.065">
   <properties />
   
   
-            <testcase name="loginTest" time="4.768" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="selectProduct" time="54.207" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="logOut" time="7.473" classname="com.wipro.testcases.PlaceOrder" />
+            <testcase name="valiadteLogout" time="6.411" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="makePaymentTest" time="6.194" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="clickConfirmTest" time="1.181" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="loginTest" time="4.806" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="addToCartTest" time="20.100" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="clickCheckoutTest" time="8.747" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="clickShoppingCartTest" time="3.095" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="selectDesktopTest" time="6.531" classname="com.wipro.testcases.PlaceOrder" />
       
 </testsuite>

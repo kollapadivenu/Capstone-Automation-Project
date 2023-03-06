@@ -9,4 +9,4 @@ Then user logouts
 
 Examples:
 |username|password|firstname|lastName|Email|cityname|addressCity|postalCode|pNumber|
-|v21@gmail.com|v12345|venu|sfsfd|v21@gmail.com|New York|edge23-lala street|e100012|7013606325|
+|venukollapudi@gmail.com|Venu@12345|Kollapudi|Venu|venukollapudi@gmail.com|New York|William street|10001|7013606690|

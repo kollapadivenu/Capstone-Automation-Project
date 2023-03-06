@@ -22,6 +22,7 @@ public class ValidateMenuPage extends TestBase{
 	By jewelry = By.xpath("/html/body/div[6]/div[2]/ul[1]/li[6]/a");
 	By giftCards = By.xpath("/html/body/div[6]/div[2]/ul[1]/li[7]/a");
 	
+	//Function is used to write data into text file
 	public void writeData() {
 		List<WebElement> ls = driver.findElements(topMenuNotMobiles);
 		WriteIntoFileMenuLinks wim =new WriteIntoFileMenuLinks();
@@ -31,6 +32,8 @@ public class ValidateMenuPage extends TestBase{
 			wim.writeData(count, menuLink);
 		}
 	}
+	
+	//Function is used to validate menu list
 	public boolean validateMenuList() {
 		
 		driver.findElement(computers).click();

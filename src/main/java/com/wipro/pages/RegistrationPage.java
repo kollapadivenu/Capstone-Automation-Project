@@ -15,6 +15,8 @@ public class RegistrationPage extends TestBase{
 	By pass = By.xpath("//*[@id=\"Password\"]");
 	By cnfPass = By.xpath("//*[@id=\"ConfirmPassword\"]");
 	By regBtn = By.xpath("//button[@id='register-button']");
+	
+	//Function is used to click on register
 	public boolean registerClick() {
 		driver.findElement(register).click();
 		boolean actResult=true;
@@ -29,6 +31,7 @@ public class RegistrationPage extends TestBase{
 		return actResult;
 	}
 	
+	//Function is used to register the user
 	public boolean registrationDetails(String firstname,String lastname,String Email,String password,String confirmPassword) {
 		driver.findElement(firstName).sendKeys(firstname);	
 		wait(1000);

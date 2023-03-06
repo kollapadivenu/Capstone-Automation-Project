@@ -22,6 +22,7 @@ public class AddressPage extends TestBase{
 	By phoneNumber = By.xpath("//*[@id=\"Address_PhoneNumber\"]");
 	By saveBtn = By.xpath("/html/body/div[6]/div[3]/div/div[2]/form/div/div[2]/div[2]/button");
 	
+	// function which is used to send data to addAddress option
 	public boolean addAddress(String firstname,String lastname,String Email,String cityname,String addressCity,String postalCode,String pNumber) {
 		
 		driver.findElement(addNew).click();

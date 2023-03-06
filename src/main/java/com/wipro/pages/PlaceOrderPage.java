@@ -39,6 +39,7 @@ public class PlaceOrderPage extends TestBase{
 	
 WebDriverWait wait = new WebDriverWait(driver, 10);
 	
+	//Function is used to Select Desktop Product
 	public boolean selectDesktop() {
 		driver.findElement(clickOnComp).click();
 		wait(2000);
@@ -54,7 +55,8 @@ WebDriverWait wait = new WebDriverWait(driver, 10);
 		boolean actResult = driver.findElement(clickOnShoppingCart).isDisplayed();
 		return actResult;
 	}
-
+	
+	//Function is used to click on Shopping Cart
 	public boolean clickShoppingCart() {
 		driver.findElement(clickOnShoppingCart).click();
 		wait(1000);
@@ -64,6 +66,7 @@ WebDriverWait wait = new WebDriverWait(driver, 10);
 		return actResult;
 	}
 	
+	//Function is used to click on Checkout
 	public boolean clickCheckout() {
 		driver.findElement(checkOut).click();
 		wait(1000);
@@ -75,7 +78,8 @@ WebDriverWait wait = new WebDriverWait(driver, 10);
 		return actResult;
 		
 	}
-
+	
+	//Function is used to Make Payment
 	public boolean makePayment() {
 		driver.findElement(By.xpath("//*[@id=\"paymentmethod_0\"]")).click();
 		driver.findElement(paymentContinue).click();
@@ -86,7 +90,8 @@ WebDriverWait wait = new WebDriverWait(driver, 10);
 		return actResult;
 		
 	}
-
+	
+	//Function is used to Click on Confirm
 	public boolean clickConfirm() {
 		driver.findElement(cnfBtn).click();
 		wait(1000);
